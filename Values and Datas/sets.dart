@@ -1,4 +1,4 @@
-
+void main(){
   //sets: unordered and uinque values  
   var employee = <String>{
     'david','james', 'daniel','david','mike','david'
@@ -30,3 +30,4 @@
  //casting list to a set 
 List <String> employeeList = employee.toList();  
   print(employeeList);
+}
