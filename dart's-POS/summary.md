@@ -71,8 +71,8 @@ Understanding these fundamental concepts is essential for writing effective Dart
 
 ## Summary
 
-Comments provide clarity and documentation 
-keywords control the structure and flow of the code
-operators perform operations 
-values and data represent information 
-and expressions combine elements to produce results.
+#### Comments provide clarity and documentation 
+#### keywords control the structure and flow of the code
+#### operators perform operations 
+#### values and data represent information 
+#### expressions combine elements to produce results.
