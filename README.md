@@ -32,3 +32,20 @@ Dart is a versatile programming language developed by Google. It is often used f
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/div-j/Dart-Programming.git
+
+## Examples
+
+Check out the `examples` directory for hands-on code snippets. Each example is designed to demonstrate specific Dart programming concepts. Feel free to modify and experiment with the code to enhance your understanding.
+
+## Contributing
+
+Contributions are welcome! If you have additional examples, improvements, or corrections, please submit a pull request. Make sure to follow the [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+
+
+
+
+
+
