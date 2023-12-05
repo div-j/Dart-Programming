@@ -21,7 +21,7 @@ student1['course'] = 'Dart programming';
 print(student1);
   
 //Using Map Constructor: 
-var student2 = new Map();
+var student2 = Map();
 print(student2);
 
    student2['name'] = 'Tom';   
@@ -46,7 +46,7 @@ print(student.isNotEmpty);
    
 // Adding element with the addAll() method
 student2.addAll({'dept':'Civil','email':'tom@xyz.com'});   
-   print('Map after adding  key-values :${student2}');     
+   print('Map after adding  key-values :$student2');     
   
  // removing elements in a map use remove(key):to remove a single item and 
 
@@ -59,7 +59,7 @@ print(student2);
    
 //looping through a map
    
-   student2.forEach((k,v) => print('${k}: ${v}')); 
+   student1.forEach((k,v) => print('$k: $v')); 
 
 
 }
