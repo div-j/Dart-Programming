@@ -1,4 +1,4 @@
-//Decision statemet
+void main() {//Decision statemet
 '''
 The Decision-making statements allow us to determine which statement to execute based on the test expression
  ''' 
@@ -80,3 +80,38 @@ An if else programe that checks for elegibily
   else{
     print('Missing');
   }
+
+ // Switch case
+'''
+  Dart Switch case statement is used to avoid the long chain of the if-else statement. 
+  It is the simplified form of nested if-else statement. 
+  The value of the variable compares with the multiple cases, and if a match is found, 
+  then it executes a block of statement associated with that particular case.
+  ''';
+  
+   DateTime week = DateTime.now();
+  var today = week.weekday;
+  
+  
+ switch(today){
+   case 0:
+     print('Sunday');
+     break;
+     
+   case 1:
+     print('Moday');
+     break;
+   case 2:
+     print('Teusday');
+   case 3:
+     print('Wednessday');
+   case 4:
+     print('Thursday');
+   case 5:
+     print('Friday');
+   case 6:
+     print('Satuday');
+    
+ }
+
+}
