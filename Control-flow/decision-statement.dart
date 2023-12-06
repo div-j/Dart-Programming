@@ -1,6 +1,15 @@
-//Control flow statemet
-  
+//Decision statemet
+'''
+The Decision-making statements allow us to determine which statement to execute based on the test expression
+ ''' 
 //if and else statement
+
+
+ """
+     It is used when we have to make a decision base on two possibilities. 
+    """;
+
+
 """
 An if else programe that checks for elegibily
 
@@ -45,7 +54,9 @@ An if else programe that checks for elegibily
   }
   
   //if, else if, and else statement
-   
+   """
+     It is used when we have to make a decision from more than two possibilities. 
+    """;
   int score = 80;
   
   if (score <= 39){
