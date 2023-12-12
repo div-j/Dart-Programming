@@ -50,4 +50,51 @@ var multiply = (int a, int b) {
 var result = multiply(4, 6);
 print(result);
 
+
+   //Dart Anonymous Function
+ '''
+ this function is known as an anonymous function, lambda, or closure.
+ It has no name.
+ ''';
+  
+  var list = ["James","Patrick","Mathew","Tom"];  
+  
+ list.forEach(
+   (a){
+   print(a);
+ }
+ );  
+
+ //simple function
+greet(){
+  print('Hello guys');
+}
+ //calling function
+ greet();
+  
+ //anonymous function
+var greet2 = (){
+  print('I love you guys'); 
+ };
+  //calling function
+  greet2();
+   
+  //Recursion
+  '''A function which is called itself again and again or recursivel
+  ''';
+  
+tare(int a){
+  
+  if (a<=1){
+    return 1;  
+  }
+  else{
+    return a*tare(a-1);
+  }
+}  
+
+  var example1 = tare(5);
+  
+  print(example1);
+  
 }
