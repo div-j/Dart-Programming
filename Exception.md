@@ -78,3 +78,5 @@ try {
 - Throw meaningful exceptions to signal specific error conditions.
 - Use specific exception types for better error handling.
 - Test your error handling code to ensure it behaves as expected.
+
+
